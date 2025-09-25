@@ -1,0 +1,545 @@
+Xsession: X session started for alex-murawski at Tue Sep 23 11:41:59 AM EDT 2025
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+xrdb: Can't open display ''
+xhost:  unable to open display ""
+dbus-update-activation-environment: setting USER=alex-murawski
+dbus-update-activation-environment: setting LANGUAGE=en_US.UTF-8
+dbus-update-activation-environment: setting TEXTDOMAIN=Linux-PAM
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=wayland
+dbus-update-activation-environment: setting HOME=/home/alex-murawski
+dbus-update-activation-environment: setting DESKTOP_SESSION=LXDE-pi-wayfire
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=alex-murawski
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/home/alex-murawski/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=LXDE-pi-wayfire
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/alex-murawski
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=LXDE-pi-wayfire
+dbus-update-activation-environment: setting NO_AT_BRIDGE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting LC_ALL=en_US.UTF-8
+dbus-update-activation-environment: setting PWD=/home/alex-murawski
+II 23-09-25 11:42:01.357 - [src/main.cpp:280] Starting wayfire version 0.7.5
+II 23-09-25 11:42:01.365 - [libseat] [libseat/backend/seatd.c:64] Could not connect to socket /run/seatd.sock: No such file or directory
+II 23-09-25 11:42:01.365 - [libseat] [libseat/libseat.c:76] Backend 'seatd' failed to open seat, skipping
+II 23-09-25 11:42:01.414 - [libseat] [libseat/libseat.c:73] Seat opened with backend 'logind'
+II 23-09-25 11:42:01.414 - [backend/session/session.c:109] Successfully loaded libseat session
+II 23-09-25 11:42:01.430 - [backend/backend.c:220] Found 1 GPUs
+II 23-09-25 11:42:01.430 - [backend/drm/backend.c:186] Initializing DRM backend for /dev/dri/card1 (vc4)
+II 23-09-25 11:42:01.430 - [backend/drm/drm.c:242] Found 6 DRM CRTCs
+II 23-09-25 11:42:01.430 - [backend/drm/drm.c:200] Found 28 DRM planes
+II 23-09-25 11:42:01.510 - [render/egl.c:201] Supported EGL client extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_EXT_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EE 23-09-25 11:42:01.513 - [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+EE 23-09-25 11:42:01.513 - [EGL] command: eglQueryDeviceStringEXT, error: EGL_BAD_PARAMETER (0x300c), message: "eglQueryDeviceStringEXT"
+II 23-09-25 11:42:07.764 - [render/egl.c:347] Using EGL 1.4
+II 23-09-25 11:42:07.764 - [render/egl.c:348] Supported EGL display extensions: EGL_ANDROID_blob_cache EGL_EXT_buffer_age EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display 
+II 23-09-25 11:42:07.764 - [render/egl.c:350] Supported EGL device extensions: EGL_EXT_device_drm
+II 23-09-25 11:42:07.765 - [render/egl.c:352] EGL vendor: Mesa Project
+II 23-09-25 11:42:07.842 - [render/gles2/renderer.c:727] Creating GLES2 renderer
+II 23-09-25 11:42:07.842 - [render/gles2/renderer.c:728] Using OpenGL ES 3.1 Mesa 23.2.1-1~bpo12+rpt3
+II 23-09-25 11:42:07.842 - [render/gles2/renderer.c:729] GL vendor: Broadcom
+II 23-09-25 11:42:07.842 - [render/gles2/renderer.c:730] GL renderer: V3D 4.2
+II 23-09-25 11:42:07.842 - [render/gles2/renderer.c:731] Supported GLES2 extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_draw_instanced GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_AMD_performance_monitor GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_NV_conditional_render GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_NV_pack_subimage GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_ANGLE_pack_reverse_row_order GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_occlusion_query_boolean GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_EXT_draw_buffers GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_NV_generate_mipmap_sRGB GL_NV_pixel_buffer_object GL_OES_depth_texture_cube_map GL_OES_required_internalformat GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_debug_label GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_base_instance GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_shader_io_blocks GL_EXT_texture_border_clamp GL_EXT_texture_cube_map_array GL_EXT_texture_view GL_KHR_context_flush_control GL_NV_image_formats GL_NV_shader_noperspective_interpolation GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_primitive_bounding_box GL_OES_shader_io_blocks GL_OES_texture_border_clamp GL_OES_texture_cube_map_array GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_texture_view GL_EXT_buffer_storage GL_EXT_float_blend GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_OES_EGL_image_external_essl3 GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_shader_image_atomic GL_EXT_clear_texture GL_EXT_texture_compression_s3tc_srgb GL_MESA_shader_integer_functions GL_EXT_texture_mirror_clamp_to_edge GL_KHR_parallel_shader_compile GL_EXT_EGL_image_storage GL_MESA_framebuffer_flip_y GL_EXT_texture_query_lod GL_MESA_bgra 
+II 23-09-25 11:42:08.277 - [src/default-config-backend.cpp:101] Using config file: /home/alex-murawski/.config/wayfire.ini
+II 23-09-25 11:42:08.277 - [src/file.cpp:576] Reading XML configuration options from directory /usr/share/wayfire/metadata
+II 23-09-25 11:42:08.278 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/command.xml
+II 23-09-25 11:42:08.319 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/vswitch.xml
+II 23-09-25 11:42:08.320 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/animate.xml
+II 23-09-25 11:42:08.321 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/cube.xml
+II 23-09-25 11:42:08.322 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/extra-gestures.xml
+II 23-09-25 11:42:08.323 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/wrot.xml
+II 23-09-25 11:42:08.323 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/invert.xml
+II 23-09-25 11:42:08.324 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/output.xml
+II 23-09-25 11:42:08.324 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/zoom.xml
+II 23-09-25 11:42:08.325 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/preserve-output.xml
+II 23-09-25 11:42:08.325 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/alpha.xml
+II 23-09-25 11:42:08.326 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/idle.xml
+II 23-09-25 11:42:08.326 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/workarounds.xml
+II 23-09-25 11:42:08.327 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/scale-title-filter.xml
+II 23-09-25 11:42:08.327 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/fast-switcher.xml
+II 23-09-25 11:42:08.328 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/oswitch.xml
+II 23-09-25 11:42:08.328 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/simple-tile.xml
+II 23-09-25 11:42:08.329 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/wm-actions.xml
+II 23-09-25 11:42:08.329 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/grid.xml
+II 23-09-25 11:42:08.330 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/blur.xml
+II 23-09-25 11:42:08.331 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/input.xml
+II 23-09-25 11:42:08.332 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/scale.xml
+II 23-09-25 11:42:08.333 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/input-device.xml
+II 23-09-25 11:42:08.334 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/resize.xml
+II 23-09-25 11:42:08.334 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/autostart-static.xml
+II 23-09-25 11:42:08.334 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/vswipe.xml
+II 23-09-25 11:42:08.335 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/switcher.xml
+II 23-09-25 11:42:08.394 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/pixdecor.xml
+II 23-09-25 11:42:08.394 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/core.xml
+II 23-09-25 11:42:08.395 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/decoration.xml
+II 23-09-25 11:42:08.395 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/expo.xml
+II 23-09-25 11:42:08.396 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/fisheye.xml
+II 23-09-25 11:42:08.397 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/move.xml
+II 23-09-25 11:42:08.397 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/place.xml
+II 23-09-25 11:42:08.398 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/wobbly.xml
+II 23-09-25 11:42:08.398 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/window-rules.xml
+II 23-09-25 11:42:08.398 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/winshadows.xml
+II 23-09-25 11:42:08.399 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/pixswitcher.xml
+II 23-09-25 11:42:08.400 - [src/file.cpp:589] Reading XML configuration options from file /usr/share/wayfire/metadata/autostart.xml
+II 23-09-25 11:42:08.692 - [backend/headless/backend.c:68] Creating headless backend
+II 23-09-25 11:42:08.692 - [backend/headless/backend.c:16] Starting headless backend
+II 23-09-25 11:42:08.921 - [src/main.cpp:355] Using socket name wayland-1
+II 23-09-25 11:42:09.045 - [src/core/seat/input-manager.cpp:46] handle new input: PixArt HP USB Optical Mouse
+II 23-09-25 11:42:09.045 - [src/core/seat/input-manager.cpp:46] handle new input: Logitech Wireless Mouse
+II 23-09-25 11:42:09.045 - [src/core/seat/input-manager.cpp:46] handle new input: Logitech K540/K545
+II 23-09-25 11:42:09.196 - [src/core/seat/input-manager.cpp:46] handle new input: Logitech K540/K545
+II 23-09-25 11:42:09.196 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-0
+II 23-09-25 11:42:09.208 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-0
+II 23-09-25 11:42:09.209 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-1
+II 23-09-25 11:42:09.221 - [src/core/seat/input-manager.cpp:46] handle new input: vc4-hdmi-1
+II 23-09-25 11:42:09.221 - [backend/drm/drm.c:1502] Scanning DRM connectors on /dev/dri/card1
+II 23-09-25 11:42:09.221 - [backend/drm/drm.c:1553] Found connector 'HDMI-A-1'
+II 23-09-25 11:42:09.272 - [backend/drm/drm.c:1553] Found connector 'HDMI-A-2'
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1578] 'HDMI-A-2' connected
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1377] Physical size: 510x290
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1439] Detected modes:
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 60.000 Hz (preferred)
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1200 @ 59.950 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 60.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 59.940 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 50.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 50.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 30.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 29.970 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 25.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 24.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 24.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1920x1080 @ 23.976 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1600x1200 @ 60.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1280x1024 @ 60.020 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1280x800 @ 59.910 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1280x720 @ 60.000 Hz 
+II 23-09-25 11:42:09.273 - [backend/drm/drm.c:1478]   1280x720 @ 60.000 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   1280x720 @ 59.940 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   1280x720 @ 50.000 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   1024x768 @ 60.004 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   800x600 @ 60.317 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   720x576 @ 50.000 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   720x576 @ 50.000 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   720x480 @ 60.000 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   720x480 @ 60.000 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   720x480 @ 59.940 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   720x480 @ 59.940 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   640x480 @ 60.000 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   640x480 @ 59.940 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   640x480 @ 59.940 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1478]   720x400 @ 70.082 Hz 
+II 23-09-25 11:42:09.274 - [backend/drm/drm.c:1614] connector HDMI-A-2: Requesting modeset
+II 23-09-25 11:42:09.274 - [src/core/output-layout.cpp:1099] new output: HDMI-A-2
+II 23-09-25 11:42:09.274 - [src/core/output-layout.cpp:538] loaded mode auto
+II 23-09-25 11:42:09.294 - [backend/drm/drm.c:734] connector HDMI-A-2: Modesetting with 1920x1080 @ 60.000 Hz
+(type equals variant: [type: string, value: toplevel] | (type equals variant: [type: string, value: x-or] & focusable equals variant: [type: bool, value: 1]))
+type equals variant: [type: string, value: overlay]
+false
+false
+false
+app_id equals variant: [type: string, value: Kodi]
+(type equals variant: [type: string, value: toplevel] & floating equals variant: [type: bool, value: 1])
+EE 23-09-25 11:42:10.516 - [types/wlr_cursor.c:875] Cannot map device "Logitech K540/K545" to output (not found in this cursor)
+EE 23-09-25 11:42:10.516 - [types/wlr_cursor.c:875] Cannot map device "vc4-hdmi-0" to output (not found in this cursor)
+EE 23-09-25 11:42:10.516 - [types/wlr_cursor.c:875] Cannot map device "vc4-hdmi-1" to output (not found in this cursor)
+II 25-09-25 10:46:16.969 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:17.708 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:20.201 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:28.934 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: pcmanfm app-id: pcmanfm
+II 25-09-25 10:46:28.934 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: pcmanfm app-id: pcmanfm
+II 25-09-25 10:46:29.767 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:40.807 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:40.888 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:40.954 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.020 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.086 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.152 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.218 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.284 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.350 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.416 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.482 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.548 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.614 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.680 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.746 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.812 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.878 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:41.944 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.011 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.077 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.143 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.210 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.276 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.342 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.409 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.475 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.541 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.608 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.674 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.741 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.807 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.873 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:42.939 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.005 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.071 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.137 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.203 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.269 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.335 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.401 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.468 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.534 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.600 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.667 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.733 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.800 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.866 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.932 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:43.998 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.064 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.130 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.197 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.263 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.329 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.395 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.461 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.527 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.593 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.659 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.725 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.791 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.857 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.923 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:44.990 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.056 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.122 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.189 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.255 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.322 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.391 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.463 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.533 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.604 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.675 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.746 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.821 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.894 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:45.965 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.035 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.106 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.177 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.248 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.321 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.392 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.463 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.536 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.607 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.678 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.749 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.820 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.891 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:46.962 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.034 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.106 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.176 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.247 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.318 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.390 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.460 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.531 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.601 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.672 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.744 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.817 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.888 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:47.960 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.033 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.105 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.177 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.248 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.319 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.389 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.460 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.532 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.603 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.675 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.746 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.818 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.888 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:48.959 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.031 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.103 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.174 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.246 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.317 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.388 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.459 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.529 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.601 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.672 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.744 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.816 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.887 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:49.959 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.031 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.103 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.174 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.246 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.318 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.388 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.459 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.531 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.603 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.674 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.746 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.820 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.891 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:50.962 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.034 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.104 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.174 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.247 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.318 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.389 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.461 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.534 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.605 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.676 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.748 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.820 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.891 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:51.963 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.036 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.107 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.178 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.251 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.322 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.394 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.466 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.538 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.609 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.679 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.750 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.821 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.891 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:52.965 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.036 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.108 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.179 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.251 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.322 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.393 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.465 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.537 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.607 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.678 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.750 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.821 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.892 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:53.964 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.035 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.106 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.177 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.249 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.320 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.391 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.464 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.535 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.606 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.677 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.749 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.821 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.892 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:54.964 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.035 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.106 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.177 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.249 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.320 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.391 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.464 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.535 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.606 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.678 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.750 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.822 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.892 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:55.962 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.035 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.107 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.179 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.251 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.323 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.394 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.466 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.538 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.609 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.681 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.753 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.825 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.896 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:56.968 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.037 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.109 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.181 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.254 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.326 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.396 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.467 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.537 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.607 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.678 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.748 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.819 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.890 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:57.962 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:58.033 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:58.104 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:46:58.175 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:00.525 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:01.258 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:01.707 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:02.526 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:03.721 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:39.526 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:40.571 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:41.310 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:47:43.831 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: main_3.py - /home/alex-murawski/Documents/SDS_Codes - Geany app-id: geany
+II 25-09-25 10:47:52.408 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:48:04.082 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:48:19.320 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:48:23.401 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:48:24.891 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:25.717 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:25.881 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:26.027 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:27.267 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:28.182 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:28.675 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:28.815 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:29.080 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:29.279 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+app_id equals variant: [type: string, value: Kodi]
+app_id equals variant: [type: string, value: Kodi]
+II 25-09-25 10:48:29.946 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:29.948 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:29.951 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+II 25-09-25 10:48:29.968 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+app_id equals variant: [type: string, value: Kodi]
+app_id equals variant: [type: string, value: Kodi]
+app_id equals variant: [type: string, value: Kodi]
+app_id equals variant: [type: string, value: Kodi]
+app_id equals variant: [type: string, value: Kodi]
+app_id equals variant: [type: string, value: Kodi]
+II 25-09-25 10:49:46.861 - [src/view/xdg-shell.cpp:25] New xdg popup
+EE 25-09-25 10:49:46.963 - [libinput] event4  - PixArt HP USB Optical Mouse: client bug: event processing lagging behind by 26ms, your system is too slow
+
+II 25-09-25 10:50:05.654 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:09.205 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:09.437 - [src/view/xdg-shell.cpp:25] New xdg popup
+EE 25-09-25 10:50:13.673 - [libinput] client bug: timer event4 debounce: scheduled expiry is in the past (-548ms), your system is too slow
+
+EE 25-09-25 10:50:13.705 - [libinput] client bug: timer event4 debounce short: scheduled expiry is in the past (-593ms), your system is too slow
+
+II 25-09-25 10:50:15.802 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:18.639 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:22.119 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:24.840 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:28.556 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:31.499 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:46.331 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:48.012 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:50:49.445 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface:  app-id: lxterminal
+app_id equals variant: [type: string, value: Kodi]
+II 25-09-25 10:51:25.774 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:51:37.481 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:51:38.792 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:51:44.925 - [src/core/seat/input-manager.cpp:46] handle new input: Dell Dell Smart Card Reader Keyboard
+EE 25-09-25 10:51:44.961 - [types/wlr_cursor.c:875] Cannot map device "Logitech K540/K545" to output (not found in this cursor)
+EE 25-09-25 10:51:44.961 - [types/wlr_cursor.c:875] Cannot map device "vc4-hdmi-0" to output (not found in this cursor)
+EE 25-09-25 10:51:44.961 - [types/wlr_cursor.c:875] Cannot map device "vc4-hdmi-1" to output (not found in this cursor)
+EE 25-09-25 10:51:44.963 - [types/wlr_cursor.c:875] Cannot map device "Dell Dell Smart Card Reader Keyboard" to output (not found in this cursor)
+II 25-09-25 10:52:13.743 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:52:45.539 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:52:47.867 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:53:59.954 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:54:01.875 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:54:03.276 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:54:23.807 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:54:26.729 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: New Tab - Chromium app-id: chromium-browser
+app_id equals variant: [type: string, value: Kodi]
+II 25-09-25 10:55:04.963 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 10:55:07.401 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:03.777 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:04.154 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:04.788 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:05.195 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:07.992 - [src/view/xdg-shell.cpp:25] New xdg popup
+EE 25-09-25 11:02:08.250 - [libinput] event4  - PixArt HP USB Optical Mouse: client bug: event processing lagging behind by 42ms, your system is too slow
+
+II 25-09-25 11:02:16.969 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:17.384 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:17.455 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:02:17.478 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:03:16.781 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:03:50.032 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:03:55.284 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:03:56.389 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:03:56.723 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:03:57.823 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: pcmanfm app-id: pcmanfm
+II 25-09-25 11:03:59.366 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:04:00.356 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:04:00.571 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:04:28.414 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:04:32.986 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:05:11.178 - [src/view/xdg-shell.cpp:25] New xdg popup
+app_id equals variant: [type: string, value: Kodi]
+II 25-09-25 11:10:36.615 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:10:36.670 - [src/view/xdg-shell.cpp:25] New xdg popup
+EE 25-09-25 11:10:38.951 - [libinput] event4  - PixArt HP USB Optical Mouse: client bug: event processing lagging behind by 37ms, your system is too slow
+
+EE 25-09-25 11:10:38.951 - [libinput] client bug: timer event4 debounce short: scheduled expiry is in the past (-25ms), your system is too slow
+
+II 25-09-25 11:10:39.934 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:15:29.135 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:16:28.586 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:17:29.352 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface:  app-id: lxterminal
+app_id equals variant: [type: string, value: Kodi]
+II 25-09-25 11:18:33.381 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:18:33.427 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:18:35.947 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:18:35.951 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:18:46.941 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:18:53.650 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:19:19.244 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:19:19.248 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:19:27.172 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:21:14.014 - [src/view/xdg-shell.cpp:25] New xdg popup
+EE 25-09-25 11:21:15.629 - [libinput] event4  - PixArt HP USB Optical Mouse: client bug: event processing lagging behind by 36ms, your system is too slow
+
+II 25-09-25 11:21:16.455 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:21:23.377 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:21:33.492 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:21:34.296 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:21:43.602 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:21:46.470 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:22:44.908 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:22:46.796 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:23:10.145 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:23:15.894 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:23:17.255 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:23:19.026 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:23:44.115 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:24:05.081 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:26:33.144 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:26:41.403 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:27:50.725 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:30:19.278 - [src/view/xdg-shell.cpp:25] New xdg popup
+II 25-09-25 11:31:16.418 - [src/view/xdg-shell.cpp:25] New xdg popup

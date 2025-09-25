@@ -1,0 +1,61 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+
+
+import time
+import ADS1256
+import RPi.GPIO as GPIO
+import numpy as np
+
+adcpin1 = []
+counter = 0
+retString = ""
+channels = 7
+#print(str(counter) + " counter")
+
+try:
+    #print ("in try")
+    ADC = ADS1256.ADS1256()
+    ADC.ADS1256_init()
+    strt_time = time.time()
+    cur_time = strt_time
+    #print ("after init")
+    #print("where tf am i")
+    while(1):
+        #print ("I am here")
+        #print ("in while loop")
+        counter += 1
+        #adcpin1.append(ADC.ADS1256_GetChannalValue(1, 75))
+        #print (len(adcpin1))
+        #retString += ADC.ADS1256_GetChannalValue(1, 75)
+        retList = ADC.ADS1256_GetAll()
+        print(retList)
+        #print ("now Im here")
+        pin1 = ADC.getOne(1)
+        strig, val, tim = ADCgetUpTo(channels)
+        retString += ADC.getUpTo(channels)#strig
+        print ("after getupto")
+        adcpin1.append([val, tim])
+        ADC_Value = ADC.ADS1256_GetAll()
+        adcpin1.append(ADC_Value[1])
+        print (getUpTo)
+        print ("0 ADC = %lf"%(ADC_Value[0]*5.0/0x7fffff))
+        print ("1 ADC = %lf"%(ADC_Value[1]*5.0/0x7fffff))
+        print ("2 ADC = %lf"%(ADC_Value[2]*5.0/0x7fffff))
+        print ("3 ADC = %lf"%(ADC_Value[3]*5.0/0x7fffff))
+        print ("4 ADC = %lf"%(ADC_Value[4]*5.0/0x7fffff))
+        print ("5 ADC = %lf"%(ADC_Value[5]*5.0/0x7fffff))
+        print ("6 ADC = %lf"%(ADC_Value[6]*5.0/0x7fffff))
+        print ("7 ADC = %lf"%(ADC_Value[7]*5.0/0x7fffff))
+        #print ("\33[9A")
+
+except:
+    end_time = time.time()
+    GPIO.cleanup()
+    #print (adcpin1)
+    with open("data.txt", "w") as f:
+        # Write some text to the file
+        f.write(retList)
+    f.close()
+    print ("\r\nProgram end: " + str(counter) + " samples in " + str(end_time - strt_time) + " seconds. This is " + str(counter / (end_time - strt_time)) + " samples per second on " + str(channels) + " channels.")
+    exit()
